@@ -1,0 +1,9 @@
+package com.github.JoaoBatistajrs.citiesapi.countries.repository;
+
+import com.github.JoaoBatistajrs.citiesapi.countries.domain.Country;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CountryRepository extends JpaRepository<Country, Long> {
+
+
+}
